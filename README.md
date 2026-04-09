@@ -44,12 +44,24 @@ Em lỡ tạo nhầm thành thư mục lên xóa thư mục tạo lại thành f
 
 <img width="582" height="145" alt="image" src="https://github.com/user-attachments/assets/75f22745-bca7-4e62-aec8-961a37a02415" />
 
+6. Edit file ./nginx/nginx.conf để:
+
+Cấu hình web server cổng 80
+
+server_name là sub-domain (sub-domain tuỳ ý của em)
+
+location / trỏ tới root là thư mục /myweb
+
+location /api dùng proxy_pass trỏ tới 1 (hoặc nhiều) node http_in của nodered
+
 <img width="2568" height="1926" alt="image" src="https://github.com/user-attachments/assets/6578f0bc-b84f-481f-a45b-57fab5516adb" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ea1e4a6-0484-4448-827e-3472ffe8c07c" />
 
 Mở Node-RED:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9af95bc0-42dd-455f-a360-17c4c1a90022" />
+
+7.Edit file ./nodered/settings.js để nodered bắt buộc đăng nhập
 
 <img width="1920" height="1071" alt="image" src="https://github.com/user-attachments/assets/77d57e53-f8b5-4f3a-927b-5c8c1483c0b7" />
 

@@ -24,4 +24,26 @@ nano ~/myapp/nginx/nginx.conf
 4.Tạo file ./myweb/index.html (với nội dung là thông tin cá nhân của em)
 
 <img width="1913" height="1080" alt="image" src="https://github.com/user-attachments/assets/5fa13034-af70-4f7f-b061-9c696ce5ea26" />
+5.Tạo file docker-compose.yml để nó sẽ có các dịch vụ sau:
 
+Khai báo sử dụng nodered/node-red, cổng 1880, dữ liệu nằm tại thư mục ./nodered
+
+Khai báo sử dụng nginx, cổng 80, cấu hình trong file ./nginx/nginx.conf
+
+Mount thư mục ./myweb thành thư mục /myweb trong nginx
+
+Mount file ./nginx/nginx.conf vào file /etc/nginx/nginx.conf trong nginx
+
+Tạo file nginx.conf
+<img width="818" height="1080" alt="image" src="https://github.com/user-attachments/assets/2fe5eba0-af1d-4ac2-92d0-b32f92c86a83" />
+
+<img width="1738" height="1080" alt="image" src="https://github.com/user-attachments/assets/5743f699-ec49-44b0-a882-4a3669d064a8" />
+
+Em lỡ tạo nhầm thành thư mục lên xóa thư mục tạo lại thành file  
+<img width="1822" height="1080" alt="image" src="https://github.com/user-attachments/assets/500fd9ab-1907-49ef-8591-4d0b5ce8b5a1" />
+
+<img width="582" height="145" alt="image" src="https://github.com/user-attachments/assets/75f22745-bca7-4e62-aec8-961a37a02415" />
+
+<img width="2568" height="1926" alt="image" src="https://github.com/user-attachments/assets/6578f0bc-b84f-481f-a45b-57fab5516adb" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ea1e4a6-0484-4448-827e-3472ffe8c07c" />

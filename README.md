@@ -47,3 +47,10 @@ Em lỡ tạo nhầm thành thư mục lên xóa thư mục tạo lại thành f
 <img width="2568" height="1926" alt="image" src="https://github.com/user-attachments/assets/6578f0bc-b84f-481f-a45b-57fab5516adb" />
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ea1e4a6-0484-4448-827e-3472ffe8c07c" />
+
+Mở Node-RED:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9af95bc0-42dd-455f-a360-17c4c1a90022" />
+
+<img width="1920" height="1071" alt="image" src="https://github.com/user-attachments/assets/77d57e53-f8b5-4f3a-927b-5c8c1483c0b7" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/632405fc-97a0-40d0-8ffd-708fbc12b7bf" />
